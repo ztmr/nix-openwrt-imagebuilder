@@ -6,7 +6,7 @@ writeScriptBin "generate-hashes" ''
 PATH=${lib.makeBinPath [ jq curl nix ]}:$PATH
 
 RELEASE=22.03.0
-FEEDS="base packages routing telephony"
+FEEDS="base packages routing telephony luci"
 
 if [ $# -gt 0 ]; then
   RELEASE=$1
