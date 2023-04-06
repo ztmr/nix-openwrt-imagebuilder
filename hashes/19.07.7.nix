@@ -189,6 +189,7 @@
   targets."ramips"."mt7620".sha256 = "14vlg1nbddgn1hpykx5hn25ibjk8ky67wq2ckfl5ffc7np7v73f6";
   targets."ramips"."mt7620".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "08p61kizd0w90ad0q88jdn9h492bmbnycm7cb6r8zc6lmdrjbxp6";
+  targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
   targets."ramips"."rt305x".sha256 = "1nalsc99hm4nkrrn364ssi984h6pk83l049435s2vb5wbff7nwxr";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
   targets."ramips"."mt7621".sha256 = "1rvvgwj406bvilcqmlw763qg721y505vm3dvgcv37zmln4whv6r0";
