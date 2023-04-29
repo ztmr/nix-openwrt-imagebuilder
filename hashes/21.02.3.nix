@@ -195,10 +195,10 @@
   targets."armvirt"."64".sha256 = "1zbpd93bz21ad80k8z7i4dvhpbmyfgdqdanxxz3dacl4zy7a91sc";
   targets."kirkwood"."generic".sha256 = "09zpbhz4nhicsm54x5nimknsfpyjc7hjqiklk730zrlmpr07hg8g";
   targets."kirkwood"."generic".packagesArch = "arm_xscale";
-  packages."arm_xscale"."base".sha256 = "1q6km2plqlxff9q6lpsmcg2kb9zp5bavhyy312hm8mw3ga6qqc45";
-  packages."arm_xscale"."packages".sha256 = "01bbx3diad4mrw7wh5lzpb2h9ax05v43wf0pslz9ry2az9qxj871";
-  packages."arm_xscale"."routing".sha256 = "0v5kj3miajrg3s21rvr051lk1h7dv4c1mm3kcvr6215nakpyn617";
-  packages."arm_xscale"."telephony".sha256 = "1ngsr9w7cixd5g0d1ip17n6j8npv3mmdk17r5c99ncqncjz7dizf";
+  packages."arm_xscale"."base".sha256 = "128rgfdqrfdv5bq7fk4xsbysd53m2qx4nhhdh90wwirhp7rgb9pd";
+  packages."arm_xscale"."packages".sha256 = "0vlpnl4cl573c0qhksy2k0wbf7bbiir3b0429h03c1yqids9fph7";
+  packages."arm_xscale"."routing".sha256 = "0gximiw4xf09zr858axww47l46x5icswah456i0xffcy496i8m88";
+  packages."arm_xscale"."telephony".sha256 = "1zhklinnc3sh1z1mhsvzq8lc7dmq6jzw1dp3af6xix2s0ynknrb9";
   packages."arm_xscale"."luci".sha256 = "02h1fcrcp7hlmikhiv4arnyg2vgipn6x0dfg59r120gxln52zh27";
   targets."ath79"."generic".sha256 = "01vyvxkphnlpvnw2az8ficzzjn3zjvwlvkp0hpicy8w94ih1fxdj";
   targets."ath79"."generic".packagesArch = "mips_24kc";
