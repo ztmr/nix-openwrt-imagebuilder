@@ -115,10 +115,10 @@
   targets."mediatek"."mt7623".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."mediatek"."mt7629".sha256 = "02j057hpnxxybv55119dki9a4mm6sd0xk8p7xwbagmnzyym5hpm7";
   targets."mediatek"."mt7629".packagesArch = "arm_cortex-a7";
-  packages."arm_cortex-a7"."base".sha256 = "1vp1s0czqhwssl9ss943vk0mnj5w8p68xb1cj1q5p35j5bk3d794";
-  packages."arm_cortex-a7"."packages".sha256 = "06hy93yviqj5c0m4pma70pk6bpc90pm0x9jykhnym1c05cj0c414";
-  packages."arm_cortex-a7"."routing".sha256 = "00ing5b63l09y439hhjxcqazyj2d4vaala6jrz4ds9l30f07my1h";
-  packages."arm_cortex-a7"."telephony".sha256 = "1nqh7an03mjqil9msbvax8w5256jlgv0l9dpyi4n3nk62zigfx7x";
+  packages."arm_cortex-a7"."base".sha256 = "1ri3x0m2x0ai984zibrhz0ypqn8hig8sjvdy50ply1rpqzvqjn7f";
+  packages."arm_cortex-a7"."packages".sha256 = "0qcrkgsjvj1bhh324zp2jsvvsq68bfjhwmmh2lxynq03zlx1aph1";
+  packages."arm_cortex-a7"."routing".sha256 = "0g721hqysr1l7xjfsgp55chix6m9aiizgnxv8n9gysxpdxnfn7ky";
+  packages."arm_cortex-a7"."telephony".sha256 = "0lydsk63c7knd7kg3zia048djiyl0qzcj9hkp051d5r5j6fwmz0x";
   packages."arm_cortex-a7"."luci".sha256 = "1i5h1f7hnry1p2lz7r225v3pp0dyhhlvz3cp54vpi96jicax6w3z";
   targets."mediatek"."mt7622".sha256 = "1wns4dgmx4vxk3n76dp6m7n7hmvcyi6kw9qp9nmhfgrfcid425mb";
   targets."mediatek"."mt7622".packagesArch = "aarch64_cortex-a53";
@@ -188,9 +188,9 @@
   targets."realtek"."rtl838x".sha256 = "1429ysdmryd0ah07kw6pz6q9b1m0r535dcvzaria9c1vmlf1ngh9";
   targets."realtek"."rtl838x".packagesArch = "mips_4kec";
   packages."mips_4kec"."base".sha256 = "1fjd862c7351kgka2l95g8r9n24q8qzqx265hwycx52i0pw7179i";
-  packages."mips_4kec"."packages".sha256 = "1z5pw9zd1w0pg3m243nydv35kwhvdsb14kjirnfiwxhlz05wra6g";
-  packages."mips_4kec"."routing".sha256 = "1wqczscg9nq1fdv9g2yyfzqbx3nhxrnfzsy0mvr955iv384w4afp";
-  packages."mips_4kec"."telephony".sha256 = "1nzrdh0ysnfjal0p71kqnrxs5mxgsqdn3glma4a0hhz3djl2pcvf";
+  packages."mips_4kec"."packages".sha256 = "1245li21arbqqpzqpmkmjfq8z8ad23rzybxd3c47ykgp1vrm7hv2";
+  packages."mips_4kec"."routing".sha256 = "1i1w08caqianwvv0398n4lp1i745v6pl1pg9p1imyfmivdvxzqji";
+  packages."mips_4kec"."telephony".sha256 = "0xysshb81hwrhixb3d897f4abys6a06sxyd1n3mj35wir19zjh6a";
   packages."mips_4kec"."luci".sha256 = "1yr05c98qps28ip1qhqy3ilihsxrc4y3s157hi2yfj7k4jw08fkg";
   targets."realtek"."rtl930x".sha256 = "1r7c9ndr15f2n3fjky1a19bnh4nszp21a0524qnaayaczvlbxing";
   targets."realtek"."rtl930x".packagesArch = "mips_24kc";
