@@ -1,11 +1,5 @@
 {
   targets."ath25"."generic".sha256 = "091mwh0dv36bj1z48n5q1gxnzf2fv8hv6x8vlx20waz9lbghj415";
-  targets."ath25"."generic".packagesArch = "mips_mips32";
-  packages."mips_mips32"."base".sha256 = "1phmwlw5y74h4sa89cnb6g8glfiwc8xf1alc0v59c4wpkd9qx6gm";
-  packages."mips_mips32"."packages".sha256 = "0lb0p08n844ibck0mv66n0cjhwrp0shri4wk944a4c65f6i57d1x";
-  packages."mips_mips32"."routing".sha256 = "0q4kmvqys9w5gzsgdi6vd6sja93l0mfr85dd027lv1sgziy67hxb";
-  packages."mips_mips32"."telephony".sha256 = "13nc7bfyvs1likq9wz0g6y2hzp5yiiish3zccpr3rngdvmlfn0mb";
-  packages."mips_mips32"."luci".sha256 = "04kms281pajrp5z39zxzz3380xj2svsnd4appc2ks99v5zydqzpl";
   targets."archs38"."generic".sha256 = "1br00j5j2aw8zckmli78c5g6gpfcj80qk5wm7s5c5b7vrsi3c36a";
   targets."kirkwood"."generic".sha256 = "0m0bpdmxcgq872am4xswk8gfy5s4c7hygi4ikk97n3a9p5crs4hx";
   targets."kirkwood"."generic".packagesArch = "arm_xscale";
@@ -130,6 +124,11 @@
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
   targets."lantiq"."ase".sha256 = "0phbj9hdrxgd0dlhnhzlzddfy7k4jrd662rvmxm7wbz6mgvk8lfl";
   targets."lantiq"."ase".packagesArch = "mips_mips32";
+  packages."mips_mips32"."base".sha256 = "1phmwlw5y74h4sa89cnb6g8glfiwc8xf1alc0v59c4wpkd9qx6gm";
+  packages."mips_mips32"."packages".sha256 = "0lb0p08n844ibck0mv66n0cjhwrp0shri4wk944a4c65f6i57d1x";
+  packages."mips_mips32"."routing".sha256 = "0q4kmvqys9w5gzsgdi6vd6sja93l0mfr85dd027lv1sgziy67hxb";
+  packages."mips_mips32"."telephony".sha256 = "13nc7bfyvs1likq9wz0g6y2hzp5yiiish3zccpr3rngdvmlfn0mb";
+  packages."mips_mips32"."luci".sha256 = "04kms281pajrp5z39zxzz3380xj2svsnd4appc2ks99v5zydqzpl";
   targets."lantiq"."xway_legacy".sha256 = "1alriv39szazg9mwgx5fknkzc4qdsnayrb68jw0flxpgmpip339s";
   targets."lantiq"."xway".sha256 = "1nm5v94lfqm8glr2zasv1cszk409vwwby991xw3csnqb93gzlfkz";
   targets."lantiq"."xway".packagesArch = "mips_24kc";
