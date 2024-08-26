@@ -259,9 +259,9 @@
   targets."x86"."generic".sha256 = "06fmy3x4jyzq4j1s5jawfqgci75w6p7p03hciw3ipmkaq9lg3j1z";
   targets."x86"."generic".packagesArch = "i386_pentium4";
   packages."i386_pentium4"."base".sha256 = "1ax91qcigwn7ia6c6w88i36ng6ggm5q4x9hvf7f9l0yv1af9arn3";
-  packages."i386_pentium4"."packages".sha256 = "0jv4sc9266mlb33w2cxpqxq761svz65v4rp9xpyw6iwg5hs9g3gx";
-  packages."i386_pentium4"."routing".sha256 = "15pvfpqvhfdk77a5p5p0w0wm6f2j0rx555kbx6xqafy88xmgv5a9";
-  packages."i386_pentium4"."telephony".sha256 = "139h9nx3dq3mxxi77yix33mb19zwvpci83k5dcin0hxgcvsckym4";
+  packages."i386_pentium4"."packages".sha256 = "1lsplw1021jmixi22wbm30xdpxpqviwsc0558gcrxzk3fx2v5bv5";
+  packages."i386_pentium4"."routing".sha256 = "0wa0ih2gkrx7ig02s6q54nywa9rlxqc809xrpbngxl300n04a3xd";
+  packages."i386_pentium4"."telephony".sha256 = "0kjpgc8ym67g2vvc8pxjy1b1vihzc8j9y3094m467cjwps2ij7sz";
   packages."i386_pentium4"."luci".sha256 = "04naz48isn47qdbrjafnd40cpldafbhg9965by70s0gff3d52jay";
   targets."x86"."64".sha256 = "060ib7mw514fxh3wfdbbdrr9x9pvf1bz9r9hcyr9lb0d7brj9mzp";
   targets."x86"."64".packagesArch = "x86_64";
@@ -288,9 +288,9 @@
   targets."oxnas"."ox820".sha256 = "0af9zh6r0nhl4svbpm2la3bl4m4flqpvq5vm873zqh770qp4bcpp";
   targets."oxnas"."ox820".packagesArch = "arm_mpcore";
   packages."arm_mpcore"."base".sha256 = "17vhsvlvvl9zaa9a3fpaxkfpms2gzgzx0f0w3fzsd7afcs6f5rfv";
-  packages."arm_mpcore"."packages".sha256 = "0hlnz59yd9v1bgykmhbw34yna0pwzvcls413npi851gddv8y8fpp";
-  packages."arm_mpcore"."routing".sha256 = "07vrwy9vmlh1jhpw07banm1q95n1fdlgg6n5k4cvbnd21rns4w16";
-  packages."arm_mpcore"."telephony".sha256 = "05grz3q8wvsgkx2agdndv4pfpvwp7097csll7gzd6vf3vkz416im";
+  packages."arm_mpcore"."packages".sha256 = "1amixzxr85qy7x5yswyv2g52g2i25zfipmvxfx16fm61hkbix6zx";
+  packages."arm_mpcore"."routing".sha256 = "18hppc29vj06jxibmlr364zqznc7nn3gn4ncg6kphfm8gl5cjhby";
+  packages."arm_mpcore"."telephony".sha256 = "1lkig5z5vx63zpv69k3f4pkwm2j4psrg514hdd6kdlgqncyd8mlf";
   packages."arm_mpcore"."luci".sha256 = "08z0pbl1i54dr970mq8vw13q6w09afy9fm8pkall93dxr974n2fi";
   targets."gemini"."generic".sha256 = "1kb1k2d5sblii0vaih21p5gwikzdmzrzs8qfsi78377cgn88nipb";
   targets."gemini"."generic".packagesArch = "arm_fa526";
