@@ -34,11 +34,11 @@
   targets."realtek"."rtl931x".sha256 = "180kn9j91pkf261qrbz97qslzkd83fxx1y5hxwmrbl47z7bnma2b";
   targets."mpc85xx"."p2020".sha256 = "0s4yc11lfg7ah39h9qa832fq7nl2kvp60158ppwigayg1dys8ymj";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";
-  packages."powerpc_8548"."base".sha256 = "13qm5d2zdxmg8qs8h9n4xs824xfaydbcfk9xx7zl9196xx3vqw63";
-  packages."powerpc_8548"."packages".sha256 = "1kcdd2smv2c2fl661z7vmc6ilfs0i5lm7siijdjzsb566mfmc93r";
-  packages."powerpc_8548"."routing".sha256 = "1flyiikc12p690ral32yjxmd1f16ii35kz4vy4mjhwl93vglca5d";
-  packages."powerpc_8548"."telephony".sha256 = "1j5psrmlapixc7jx3ga9pfhsclp759l2hc4xi8mn0m0yr8c1yrkm";
-  packages."powerpc_8548"."luci".sha256 = "1rdbkqg7lg9sxslpigdfz7vv5p2n34n92gjp12iskgynd5hi12di";
+  packages."powerpc_8548"."base".sha256 = "00x2zzlz5hl88xd2qh9xd9y9ssfgyg89fz2sm3bi9drrv7z23f35";
+  packages."powerpc_8548"."packages".sha256 = "030gakkhknq8rps5kmbq0xpgkl6ar6f54bz5ivz2wx6m1axx6fvh";
+  packages."powerpc_8548"."routing".sha256 = "0z76ki4k1l7bc8n6s7426r2584wkiha2zky8956fai33fvph9s92";
+  packages."powerpc_8548"."telephony".sha256 = "1zsvw8x59lkx11fm3jri0xkplii511r3n1n2dn5sgyr8bn2ksv7k";
+  packages."powerpc_8548"."luci".sha256 = "0hdwyzlv62crnhqxxhgz31qwvih9nifdvks4il2f9kb1q6i1shhp";
   targets."mpc85xx"."p1010".sha256 = "01pvahjsr17jvbgk3zz868pc2mrknck8jmbm1ajhpf8vrdiimnlv";
   targets."mpc85xx"."p1010".packagesArch = "powerpc_8548";
   targets."mpc85xx"."p1020".sha256 = "1npsq8rxvnm565l2i94jnkzh1fxgcpnk4wkqj0hay1ybnm1v6s2i";
