@@ -25,9 +25,9 @@
   targets."realtek"."rtl839x".sha256 = "1gj88d50cn8xgivgp5vwf7fx2vv1nxscr9clixwxhbn3ci105h48";
   targets."realtek"."rtl839x".packagesArch = "mips_24kc";
   packages."mips_24kc"."base".sha256 = "0kk32hliv2k5h3dwfnxvzqyjqpyvgy6yicph3h3vqw6kia7sqdy9";
-  packages."mips_24kc"."packages".sha256 = "13sfandyr50fknimmr8720kpn8malhvlf8lj37c5qala0wxzmnns";
-  packages."mips_24kc"."routing".sha256 = "0wvxnv15xxl6ajzkdywkz7zp3fi1rwsqqgy9rq92czjfk4fv3lzf";
-  packages."mips_24kc"."telephony".sha256 = "00bcgr2yzwlq8xq1fdlc4yzj93mfslxq30a9v5ryqr1y292lqlyg";
+  packages."mips_24kc"."packages".sha256 = "1a17labgzgzil7lyw2jnsjf60j6vnv382d3s293jmlhlllyzmj6s";
+  packages."mips_24kc"."routing".sha256 = "1rc9jzrx8ljbg6smfmmv35b4j8wr9hrlrx438j3jnlz2gncr4s0j";
+  packages."mips_24kc"."telephony".sha256 = "0jhkc5jm1hrgaqh4hms7hcvmc6cd4cxivccljnrpp33zqr8bhir1";
   packages."mips_24kc"."luci".sha256 = "0m391q4phygx12g7kbgxgvccywyjd863pqinc5zaxvj00k8gqsmj";
   targets."realtek"."rtl930x".sha256 = "1d0fi1sm0iza6zzq3xfqn5zb0i9fr8bbq86b94ysn0qq8yjjpxc7";
   targets."realtek"."rtl930x".packagesArch = "mips_24kc";
@@ -306,8 +306,8 @@
   targets."bcm53xx"."generic".sha256 = "02r8ncqbrzbmj0wcz6q49g7d8y46bq3zc0840z00gvr1apy6ff6h";
   targets."bcm53xx"."generic".packagesArch = "arm_cortex-a9";
   packages."arm_cortex-a9"."base".sha256 = "16bc99vzkv4f5jr9bxxddm5b3rjjfg5bkhic2s6fjca3ncz35qv4";
-  packages."arm_cortex-a9"."packages".sha256 = "006zijp109q9kpbbaf2kfmxnw728x9k65yf9yw60sckcikqg585j";
-  packages."arm_cortex-a9"."routing".sha256 = "1bh81801b148kw59s45hm6xmfhjcszq0jsjd6i3662qnz00aqn27";
-  packages."arm_cortex-a9"."telephony".sha256 = "1jqgqxilifrgqnj4yljh9a11v9c1631922d8vp7kp4yl772b5vlw";
+  packages."arm_cortex-a9"."packages".sha256 = "1li9fcwkh092sy5a8chsp524zb9kv685p2kaaw9x8fzhhnl6m4wj";
+  packages."arm_cortex-a9"."routing".sha256 = "184ma2kd6w73j8yl8wqxvshks141251lcj2i735z9avcm7nj8zkg";
+  packages."arm_cortex-a9"."telephony".sha256 = "08n2j4yp5dkfmf4s98cfqd6qrchmvnqgc596ymm7kypascy3mamg";
   packages."arm_cortex-a9"."luci".sha256 = "14dzvz99ygsrjp28ysxcr5990msh06vbba49j3b2nqhcwx57abdi";
 }
