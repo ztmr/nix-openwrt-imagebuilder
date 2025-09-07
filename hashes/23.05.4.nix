@@ -163,9 +163,9 @@
   targets."layerscape"."armv8_64b".sha256 = "0jqqrfzaraa4yxjsmvnk8r6vqlxpd989nrnyvvfgc0zq837640gm";
   targets."layerscape"."armv8_64b".packagesArch = "aarch64_generic";
   packages."aarch64_generic"."base".sha256 = "1n41g8axr4jzz290m2jqd7b8dm9x3gl3rcj8qvl2izafrnf15789";
-  packages."aarch64_generic"."packages".sha256 = "0i51qf1py3fsssjpzqgnirc6s4pm189qgms8vcjnqwdlybpppbm6";
-  packages."aarch64_generic"."routing".sha256 = "0187i7qcg188yqblf1q3qv2wql5gansw94ym9ysssh5pb2pvkmaj";
-  packages."aarch64_generic"."telephony".sha256 = "1n84kg4i6iw3mdawgqj7p2xxjdhbniwchbaj1bjl08ij5a5zcwwc";
+  packages."aarch64_generic"."packages".sha256 = "0z4wjrmqx7dkm4qmlc06c0ga4i6ib6y2ib0c59akybq132y9qs3k";
+  packages."aarch64_generic"."routing".sha256 = "132y4asdw323i345i8864xbwnbvys48bb08b03mb63pp4g8fwaxf";
+  packages."aarch64_generic"."telephony".sha256 = "0qisnfil8zwcpclzw4g4c0gxhkvjj9j1psg3gj5ys3c4xlv1sr7l";
   packages."aarch64_generic"."luci".sha256 = "1bc84lrwb2gp1kg55zfkqvg7yhmwk1qc60mk1myr5d7idybhiavl";
   targets."bcm47xx"."generic".sha256 = "0r2567rlbybwxwpxdhx9hmc7lhjh9163zrrvdn0izpf3z70pi49s";
   targets."bcm47xx"."generic".packagesArch = "mipsel_mips32";
